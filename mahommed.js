@@ -1,11 +1,8 @@
-// تنبيه عند فتح الصفحة 
-
-// زر التسجيل
+ 
 document.getElementById("registerBtn").onclick = function () {
     window.location.href = "mahommed3.html";
 };
-
-// تأكيد قبل الانتقال للأعمال السابقة
+ 
 document.getElementById("oldWorkBtn").onclick = function () {
     let confirmMove = confirm("هل تريد الانتقال إلى أعمالي السابقة؟");
     if (confirmMove) {
